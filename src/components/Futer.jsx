@@ -17,13 +17,6 @@ const FuterContainer = ({ className }) => {
             </a>
           </p>
         </div>
-
-        {/* <div className="footer-contact">
-          <Link to="#contact" className="phone">
-            <img src="/phone.svg" alt="Phone" />
-            <span>Связаться</span>
-          </Link>
-        </div> */}
       </div>
     </footer>
   );

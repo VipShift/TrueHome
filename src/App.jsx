@@ -1,6 +1,6 @@
 // App.jsx
 import { Routes, Route } from "react-router";
-import { About, Contact, Main } from "./pages";
+import { Services, Contact, Main } from "./pages";
 import { Futer, Header } from "./components";
 import styled from "styled-components";
 import { LanguageProvider } from "./components/LanguageContext";
@@ -13,7 +13,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>

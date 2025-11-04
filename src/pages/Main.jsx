@@ -281,7 +281,7 @@ const MainContainer = ({ className }) => {
               <h3>{t.project4}</h3>
             </div>
           </div>
-          <button className="more-button" onClick={() => navigate("/about")}>
+          <button className="more-button" onClick={() => navigate("/services")}>
             {t.moreButton}
           </button>
         </div>

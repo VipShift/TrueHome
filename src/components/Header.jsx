@@ -31,8 +31,8 @@ const HeaderContainer = ({ className }) => {
           <NavLink to="/" className="nav-link">
             Home
           </NavLink>
-          <NavLink to="/about" className="nav-link">
-            About
+          <NavLink to="/services" className="nav-link">
+            Services
           </NavLink>
           <NavLink to="/contact" className="nav-link">
             Contact

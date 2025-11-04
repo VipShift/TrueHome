@@ -103,62 +103,6 @@ export const Contact = styled(ContactContainer)`
   color: white;
   position: relative;
 
-  // .social-container {
-  //   display: flex;
-  //   justify-content: center;
-  //   gap: 20px;
-  //   margin: 20px auto;
-  //   margin-top: 30px; /* расстояние от формы */
-  // }
-
-  // /* общий стиль кнопок */
-  // .social-button {
-  //   width: 52px;
-  //   height: 52px;
-  //   background: rgba(255, 255, 255, 0.1);
-  //   backdrop-filter: blur(10px);
-  //   border-radius: 15px;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   overflow: hidden;
-  //   transition: all 0.3s ease;
-  //   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  // }
-
-  // /* hover эффект для всех кнопок */
-  // .social-button:hover {
-  //   transform: translateY(-5px);
-  //   background: rgba(255, 255, 255, 0.2);
-  //   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-  // }
-
-  // /* svg иконки */
-  // .socialSvg {
-  //   width: 24px;
-  //   height: 24px;
-  // }
-
-  // .socialSvg path {
-  //   fill: white;
-  // }
-
-  // /* анимация появления иконки */
-  // .social-button:hover .socialSvg {
-  //   animation: slide-in-top 0.3s both;
-  // }
-
-  // @keyframes slide-in-top {
-  //   0% {
-  //     transform: translateY(-20px);
-  //     opacity: 0;
-  //   }
-  //   100% {
-  //     transform: translateY(0);
-  //     opacity: 1;
-  //   }
-  // }
-
   /* Language Toggle Button */
   .language-toggle {
     position: fixed;

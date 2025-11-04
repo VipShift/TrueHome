@@ -1,3 +1,5 @@
+// src/components/LanguageContext.jsx
+
 import React, { createContext, useState, useContext, useEffect } from "react";
 
 const LanguageContext = createContext(null);
@@ -25,7 +27,10 @@ export const LanguageProvider = ({ children }) => {
   const toggleLanguage = () => setLanguage((p) => (p === "ru" ? "es" : "ru"));
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
+    <LanguageContext.Provider
+      className="language-toggle"
+      value={{ language, setLanguage, toggleLanguage }}
+    >
       {children}
     </LanguageContext.Provider>
   );
