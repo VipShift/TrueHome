@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../components";
-import { Portfolio } from "../components";
+import { Portfolio, ProfileCard } from "../components";
 
 const translations = {
   ru: [
@@ -139,9 +139,8 @@ const ServicesContainer = ({ className }) => {
           </div>
         ))}
       </div>
-
       <Portfolio />
-
+      <ProfileCard />
       <div className="cta-block">
         <h2>
           {language === "ru"

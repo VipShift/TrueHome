@@ -10,6 +10,7 @@ function App() {
     <LanguageProvider>
       <AppContainer>
         <Header />
+
         <div className="content">
           <Routes>
             <Route path="/" element={<Main />} />
@@ -17,6 +18,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+
         <Futer />
       </AppContainer>
     </LanguageProvider>
@@ -28,12 +30,11 @@ export default App;
 const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* растягиваем контейнер на всю высоту */
+  min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 
-  /* контент растягивается на оставшееся место */
   .content {
     flex: 1;
     width: 100%;
