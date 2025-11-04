@@ -1,0 +1,56 @@
+/* === Глобальные стили === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  color: #000;
+
+  overflow-x: hidden; /* запрещаем горизонтальный скролл */
+
+  /* фон + очень мягкий плавный переход снизу белого в черный */
+  background-image: linear-gradient(
+      to top,
+      #e7e6e6 0%,
+      /* белый внизу */ rgba(204, 203, 203, 0.9) 5%,
+      rgba(227, 226, 226, 0.7) 15%,
+      rgba(213, 212, 212, 0.5) 25%,
+      rgba(15, 15, 15, 0.1) 60%,
+      #0f0f0f 100% /* черный сверху */
+    ),
+    url("/font.jpg"); /* картинка из public */
+
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* Контейнер ограничивает ширину и центрирует контент */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Универсальная кнопка */
+.btn {
+  display: inline-block;
+  background-color: #facc15;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #eab308;
+  transform: translateY(-2px);
+}
