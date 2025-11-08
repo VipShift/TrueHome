@@ -39,7 +39,7 @@ const ContactContainer = ({ className }) => {
     const form = e.target;
     const data = new FormData(form);
 
-    fetch("https://formspree.io/f/xwkgabde", {
+    fetch("https://formspree.io/f/xanawopg", {
       method: "POST",
       body: data,
       headers: { Accept: "application/json" },
@@ -67,7 +67,7 @@ const ContactContainer = ({ className }) => {
 
         <p>{t.subtitle}</p>
         {!submitted ? (
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} method="POST">
             <label>
               {t.emailLabel}
               <input type="email" name="email" required />
