@@ -5,7 +5,7 @@ const ContactsContainer = ({ className }) => {
     <div className={className}>
       <div className="social-container">
         <a
-          href="https://www.instagram.com/your_instagram"
+          href="https://www.instagram.com/timoshinalexandr/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-button containerOne"
@@ -16,16 +16,18 @@ const ContactsContainer = ({ className }) => {
             className="socialSvg"
           />
         </a>
+
         <a
-          href="https://www.instagram.com/timoshinalexandr/"
+          href="https://wa.me/34677096557"
           target="_blank"
           rel="noopener noreferrer"
           className="social-button containerFour"
         >
           <img src="/icons/whatsapp.svg" alt="WhatsApp" className="socialSvg" />
         </a>
+
         <a
-          href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/share/16ZQzATEDm/?mibextid=wwXIfr"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://mywebsite.com"
           target="_blank"
           rel="noopener noreferrer"
           className="social-button containerThree"
